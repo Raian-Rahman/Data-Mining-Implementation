@@ -44,7 +44,7 @@ For this assignment, two different dataset were used for the experiment. First, 
 
 After experimenting, it could be seen that the number of support count has a big impact on the running time of the algorithm.  The running time comparison between both algorithm is given on figure 2.
 
-<img src="C:\Users\prano\AppData\Roaming\Typora\typora-user-images\image-20210803125615119.png" alt="image-20210803125615119" style="zoom:150%;" />
+<img src="/images/image-20210803125615119.png" alt="image-20210803125615119" style="zoom:150%;" />
 
 
 
