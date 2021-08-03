@@ -8,7 +8,7 @@ In this assignment, we were asked to implement two frequent pattern mining algor
 
 Both dataset contains transaction id as well as some list of items with that order. The header of each of the csv file is shown in table 1. 
 
-![Table 1](C:\Users\prano\Desktop\Table 1.PNG)
+<img src="/images/Table 1.PNG" alt="Table 1" style="zoom:150%;" />
 
 As we can see, both the dataset are not preprocessed for using in apriori or fp-growth algorithm. So, we needed to preprocess the dataset so that we can pass the dataset to the algorithm to our model. Preprocessing part, implementation part and comparison part is explained in the later sections. Our, experiment shows that, in the case of apriori the model's speed depends on the number of transaction as well as the support count. While, in case of fp-growth the speed does not vary based on the support count. 
 
@@ -20,7 +20,7 @@ To be able to pass the dataset to apriori or fp-growth algorithm, we needed to p
 
 
 
-![fig1](C:\Users\prano\Desktop\fig1.PNG)
+<img src="/images/fig1.PNG" alt="fig1" style="zoom:150%;" />
 
 
 
@@ -36,7 +36,7 @@ Both the algorithms were implemented in python. The code implementation notebook
 
 For this assignment, two different dataset were used for the experiment. First, to check if the algorithms work or not, an example from book was used for testing. Our experiment showed that both the algorithm could generate correct answer for the algorithm. Then both the datasets were passed to both algorithm. The algorithms could find out the solution. But, the speed of both algorithm was not equal. After experimenting, the hyper parameter values are given on table 2. 
 
-<img src="C:\Users\prano\AppData\Roaming\Typora\typora-user-images\image-20210803125531141.png" alt="image-20210803125531141" style="zoom:150%;" />
+<img src="/images/image-20210803125531141.png" alt="image-20210803125531141" style="zoom:150%;" />
 
 
 
